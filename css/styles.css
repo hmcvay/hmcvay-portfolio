@@ -9,11 +9,6 @@ img {
   border-radius: 50%;
 }
 
-.middle {
-  margin-top: 200px;
-  color: blue;
-}
-
 .bottom {
   color: red;
 }
@@ -51,7 +46,7 @@ img {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
   text-align: center;
 }
 
@@ -65,10 +60,11 @@ img {
 }
 
 .repos {
-  margin-left: 100px;
-  margin-right: 200px;
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 200px;
+  color: blue;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-bottom: 200px;
 }
 .column1 {
   width: 400px;
