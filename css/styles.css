@@ -4,10 +4,11 @@ body {
 
 img {
   float: left;
-  margin-left: 15%;
+  margin-left: 20%;
   height: 300px;
   width: 300px;
   border-radius: 50%;
+  margin-bottom: 150px;
 }
 
 .bottom {
@@ -33,11 +34,6 @@ img {
   margin-bottom: 50px;
 }
 
-.pmc {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
 .box1 {
   width: 75%;
   border: dotted black;
@@ -57,29 +53,33 @@ img {
   padding: 15px;
   margin-right: 10%;
   width: 30%;
+  margin-bottom: 200px;
 }
 
 .repos {
-  margin-top: 200px;
+  margin-top: 400px;
   color: blue;
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-right: 40%;
+  width: 40%;
   margin-bottom: 200px;
+
 }
 .column1 {
-  width: 400px;
   height: auto;
   float: left;
-  margin-left: 100px;
+  width: 400px;
   margin-right: 100px;
-  margin-bottom: 200px;
 }
 
 .column2 {
-  width: 400px;
   height: auto;
   float: left;
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-bottom: 200px;
+  width: 400px;
+}
+
+.column3 {
+  
+  height: auto;
+  float: left;
+  width: 400px;
 }
