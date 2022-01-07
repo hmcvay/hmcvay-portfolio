@@ -14,7 +14,7 @@
 
 This webpage allows users to read a little bit about me, and reference some of my other repositories. 
 
-Simply navigate to the Projects sidebar and click on the GitHub links to their associated repositories.
+Simply navigate to the Projects section and click on the GitHub links to their associated repositories.
 
 ## Setup/Installation Requirements
 
