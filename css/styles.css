@@ -12,6 +12,26 @@ img {
   font-size: 20pt;
 }
 
+.big {
+  font-size: 30pt;
+}
+
+.head {
+  font-size: 40pt;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+.epicodus {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.pmc {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .box1 {
   width: 75%;
   border: dotted black;
