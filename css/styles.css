@@ -29,7 +29,7 @@ img {
   margin-bottom: 20px;
 }
 
-.epicodus {
+.spacing {
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -64,22 +64,10 @@ img {
   margin-bottom: 200px;
 
 }
-.column1 {
-  height: auto;
-  float: left;
-  width: 400px;
-  margin-right: 100px;
-}
 
-.column2 {
+.column {
   height: auto;
   float: left;
-  width: 400px;
-}
-
-.column3 {
-  
-  height: auto;
-  float: left;
-  width: 400px;
+  width: 250px;
+  margin-left: 100px;
 }
