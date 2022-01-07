@@ -3,7 +3,8 @@ body {
 }
 
 img {
-  margin-left: 400px;
+  float: left;
+  margin-left: 15%;
   height: 300px;
   width: 300px;
   border-radius: 50%;
@@ -24,7 +25,6 @@ img {
 
 .head {
   font-size: 40pt;
-  margin-left: 100px;
   margin-bottom: 20px;
 }
 
@@ -46,17 +46,17 @@ img {
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 50px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
 .about {
-  color: green;
-  text-align: left;
   float: right;
+  color: green;
+  text-align: justify;
   padding: 15px;
-  margin-right: 275px;
-  width: 400px;
+  margin-right: 10%;
+  width: 30%;
 }
 
 .repos {
