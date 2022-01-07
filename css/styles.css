@@ -15,18 +15,30 @@ body {
 }
 
 img {
-  float: left;
   margin-left: 400px;
   height: 300px;
   width: auto;
 }
 
 .box2 {
-  padding: 20px;
   float: right;
+  padding: 20px;
   margin-right: 400px;
   width: 300px;
   border: dotted  black;
   border-width: 2px;
   text-align: center;
+}
+
+.box3 {
+  width: auto;
+  border: solid black;
+  border-width: 2px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-sizing: border-box;
 }
