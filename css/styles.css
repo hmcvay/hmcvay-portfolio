@@ -5,7 +5,8 @@ body {
 img {
   margin-left: 400px;
   height: 300px;
-  width: auto;
+  width: 300px;
+  border-radius: 50%;
 }
 
 .bottom {
