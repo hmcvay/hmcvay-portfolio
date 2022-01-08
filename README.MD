@@ -9,12 +9,13 @@
 * HTML
 * CSS
 
-
 ## Description
 
 This webpage allows users to read a little bit about me, and reference some of my other repositories. 
 
-Simply navigate to the Projects section and click on the GitHub links to their associated repositories.
+Simply navigate to the Projects section and click on the GitHub links to access their associated repositories.
+
+View the GitHub live Page at the following web address: hmcvay/github.io/hmcvay-portfolio
 
 ## Setup/Installation Requirements
 
@@ -24,8 +25,7 @@ Simply navigate to the Projects section and click on the GitHub links to their a
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* No known bugs.
 
 ## License
 
