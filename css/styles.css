@@ -71,7 +71,7 @@ body {
 
 
 #photo {
-  position: absolute;
+  position: relative;
   height: 500px;
   width: auto;
   border-radius: 45% 45% 0% 0%;
