@@ -1,24 +1,23 @@
+/* ENTIRE */
+
 * {
   margin: 0;
   padding: 0;
 }
 
-/* html, body {
-  height: 100%;
-} */
-
-/* #container {
-  min-height: 100%;
-} */
-
-/* #main {
-  overflow: auto;
-  padding-bottom: 50px;
-} */
-
 body {
   background-color: #b2b4a9;
   color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
 }
 
 #header{
@@ -29,38 +28,37 @@ body {
   align-items: center;
   justify-content: space-evenly;
   font-family: monospace;
+  font-size: 14pt;
 }
  
 
 #footer{
   position: absolute;
   bottom: 0;
-  /* height: 50px; */
-  /* margin-top: -50px; */
   width: 100%;
-  /* clear: both; */
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 100px;
   font-family: monospace;
+  font-size: 14pt;
 }
 
-.parent {
+/* SPLASH PAGE */
+
+.splash-main {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
 }
 
 #first-name {
   position: relative;
   width: 600px;
   height: auto;
-  /* position: absolute; */
-  /* z-index: 1; */
 }
 
 #last-name {
@@ -76,6 +74,45 @@ body {
   width: auto;
   border-radius: 45% 45% 0% 0%;
   float: center;
-  /* position: absolute; */
-  /* z-index: 0; */
+}
+
+/* HEADER/FOOTER LINKS */
+
+#about:hover{
+  cursor: pointer;
+  color: black;
+}
+
+#projects:hover{
+  cursor: pointer;
+  color: black;
+}
+
+#other:hover{
+  cursor: pointer;
+  color: black;
+}
+
+#resume:hover {
+  cursor: pointer;
+  color: black;
+}
+
+
+/* HEADER/FOOTER HIDDEN DIVS */
+
+.about {
+  display: none;
+}
+
+.projects {
+  display: none;
+}
+
+.other {
+  display: none;
+}
+
+.resume {
+  display: none;
 }
