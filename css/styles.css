@@ -29,6 +29,7 @@ a:hover {
   justify-content: space-evenly;
   font-family: monospace;
   font-size: 14pt;
+  margin-bottom: 20px;
 }
  
 
@@ -44,6 +45,7 @@ a:hover {
   gap: 100px;
   font-family: monospace;
   font-size: 14pt;
+  margin-top: 20px;
 }
 
 /* SPLASH PAGE */
@@ -99,20 +101,54 @@ a:hover {
 }
 
 
-/* HEADER/FOOTER HIDDEN DIVS */
+/* ABOUT SECTION */
 
 .about {
   display: none;
 }
 
+/* PROJECT SECTION */
+
 .projects {
   display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
+
+#project-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  width: auto;
+}
+
+.project-images {
+  border-radius: 50%;
+  max-height: 300px;
+}
+
+/* OTHER SECTION */
 
 .other {
   display: none;
 }
 
+/* RESUME SECTION */
+
 .resume {
   display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#hm-resume {
+  width: auto;
+  max-height: 800px;
+  border-radius: 5%;
 }
