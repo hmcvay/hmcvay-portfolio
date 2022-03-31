@@ -1,73 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* html, body {
+  height: 100%;
+} */
+
+/* #container {
+  min-height: 100%;
+} */
+
+/* #main {
+  overflow: auto;
+  padding-bottom: 50px;
+} */
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b2b4a9;
+  color: white;
 }
 
-img {
-  float: left;
-  margin-left: 20%;
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
-  margin-bottom: 150px;
-}
-
-.bottom {
-  color: red;
-}
-
-.main {
-  font-size: 20pt;
-}
-
-.big {
-  font-size: 30pt;
-  text-decoration: underline;
-}
-
-.head {
-  font-size: 40pt;
+#header{
+  margin-top: 20px;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: monospace;
+}
+ 
+
+#footer{
+  position: absolute;
+  bottom: 0;
+  /* height: 50px; */
+  /* margin-top: -50px; */
+  width: 100%;
+  /* clear: both; */
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: monospace;
 }
 
-.spacing {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.parent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
 }
 
-.box1 {
-  width: 75%;
-  border: dotted black;
-  padding-bottom: 15px;
-  border-width: 5px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 50px;
-  margin-bottom: 100px;
-  text-align: center;
-}
-
-.about {
-  float: right;
-  color: green;
-  text-align: justify;
-  padding: 15px;
-  margin-right: 10%;
-  width: 30%;
-  margin-bottom: 200px;
-}
-
-.repos {
-  margin-top: 400px;
-  color: blue;
-  margin-right: 40%;
-  width: 40%;
-  margin-bottom: 200px;
-
-}
-
-.column {
+#first-name {
+  position: relative;
+  width: 600px;
   height: auto;
-  float: left;
-  width: 250px;
-  margin-left: 100px;
+  /* position: absolute; */
+  /* z-index: 1; */
+}
+
+#last-name {
+  position: relative;
+  width: 600px;
+  height: auto;
+}
+
+
+#photo {
+  position: absolute;
+  height: 500px;
+  width: auto;
+  border-radius: 45% 45% 0% 0%;
+  float: center;
+  /* position: absolute; */
+  /* z-index: 0; */
 }

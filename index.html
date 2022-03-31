@@ -3,76 +3,29 @@
 <head>
 <link href="css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-  <title>Hayley's Portfolio</title>
+ <script src="js/jquery-3.6.0.js"></script>
+ <script src="js/scripts.js"></script>
+  <title>Hayley McVay</title>
 </head>
 <body>
-  <div class="container">
-  <div class="box1">
-    <h1>hayley mcvay</h1>
-    <h2><em>PORTFOLIO</em></h2>
-  </div>
-  <img src="images/hmcvay.jpg" alt="photo of hayley">
-  <div class="about"><h1><span class="head">About Me!</span></h1>
-    <p>I'm Hayley!(they/she) I am Epicodus student living in Portland, Oregon learning how to code! In my free time I can be found whittling down my ever growing letterboxd watchlist, drinking coffee, and hanging with my large cat Matilda. </p>
-  </div>
-  <div class="repos">
-    <h1><span class="head">Projects!</span></h1>
-    <p><strong>Check out some repositories from this past week!</strong>
-      <ul>
-        <li><a href="https://github.com/hmcvay/animal-shelter">Animal Shelter</a>
-          <p>Project is the main page of an animal shelter website listing current pets available for adoption.</p>
-          <p>LANGUAGES USED: html, css</p>
-          </li>
-        <li><a href="https://github.com/hmcvay/favorite-food">Favorite Food</a>
-          <p>Project is a webpage detailing my favorite food.</p>
-          <p>LANGUAGES USED: html, css</p>
-        </li>
-        <li><a href="https://github.com/hmcvay/band-website">Band Website</a>
-          <p>Project is the main webpage for Michael Jackson listing future tour dates.</p>
-          <p>LANGUAGES USED: html, css</p>
-        </li>
-    </p>
-  </div>
-  <div class="bottom">
-    <h1><span class="head">Background!</span></h1>
-    <div class="column">
-      <span class="big"><p>Education</p></span>
-      <p><strong>Epicodus</strong></p>
-      <p>January 2022-Present</p>
-      <p><em>C#/React</em></p>
-      <p>Portland, OR</p>
-      <p>Working to develop a passion for coding, and learning to create team projects collaboratively.</p>
-      <p><strong>Western Washington University</strong></p>
-      <p>September 2010-June 2014</p>
-      <p><em>B.S., Film Studies & Digital Video Production</em></p>
-      <p>Bellingham, WA</p>
-      <p>Studied film theory and history of cinema alongside practical application of digital video prodcution.</p>
+  <div id="container">
+    <div id="main">
+      <div id="header">
+        <div id="about">about</div>
+        <div id="projects">projects</div>
+        <div id="resume">other</div>
+      </div>
+      <div class="parent">
+        <div><img src="images/hayleyLogo.png" id="first-name" /></div>
+        <div><img src="images/IMG_0427 2.jpg" id="photo" /></div>
+        <div><img src="images/mcvayOUTLIINE.png" id="last-name" /></div>
+      </div>
     </div>
-    <div class="column">
-      <span class="big"><p>Employment</p></span>
-      <p><strong>Proud Mary Coffee</strong></p>
-      <p>May 2021-January 2022</p>
-      <p><em>Barista</em></p>
-      <p>Portland, OR</p>
-      <p>Worked efficiently in fast paced environment, to deliver excellent product in a timely manor.</p>
-      <p><strong>Camber Coffee Co.</strong></p>
-      <p>September 2017-March 2020</p>
-      <p><em>Barista</em></p>
-      <p>Bellingham, WA</p>
-      <p>Developed highly organized workflow to produce exceptional beverages according to uniquely crafted recipes.</p>
-    </div>
-    <div class="column">
-      <span class="big"><p>Personal</p></span>
-      <p><strong>Interests/Hobbies</strong></p>
-        <ol>
-          <li>Film</li>
-          <li>Literature</li>
-          <li>Coffee</li>
-          <li>Learning Japanese</li>
-          <li>Collage Art</li>
-          <li>Biking</li>
-        </ol>
-    </div>
-  </div>  
+    <div id="footer">
+      <div>github</div>
+      <div>linkedin</div>
+      <div>resume</div>
+    </div> 
+  </div>
 </body>
 </html>
