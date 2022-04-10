@@ -8,6 +8,7 @@
 body {
   background-color: #b2b4a9;
   color: white;
+  font-family: 'Quicksand', sans-serif!important;
 }
 
 a {
@@ -27,8 +28,7 @@ a:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  font-family: monospace;
-  font-size: 14pt;
+  font-size: 18pt;
   margin-bottom: 20px;
 }
  
@@ -41,12 +41,19 @@ a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 100px;
-  font-family: monospace;
-  font-size: 14pt;
+  justify-content: space-between;
+  /* gap: 200px; */
+  font-size: 18pt;
   margin-top: 20px;
+  margin-right: 20px;
 }
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
 
 /* SPLASH PAGE */
 
@@ -114,6 +121,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   gap: 50px;
+  margin: 50px;
 }
 
 #about-content{
@@ -151,7 +159,6 @@ a:hover {
   padding: 10px;
   text-align: center;
   font-family: monospace;
-
 }
 
 /* PROJECT SECTION */
