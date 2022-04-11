@@ -181,11 +181,12 @@ a:hover {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  border-radius: 20px 0px 0px 0px;
+  
 }
 
 #S1a:hover {
-  background-color: #eee9de;
-  border-radius: 20px 0px 0px 0px;
+  background-color: #eee9de; 
 }
 
 #S1b {
@@ -197,11 +198,16 @@ a:hover {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  border-radius: 0px 20px 0px 0px;
+  transition: 0.3s;
+}
+
+.smol {
+  font-size: 10pt;
 }
 
 #S1b:hover {
   background-color: #eee9de;
-  border-radius: 0px 20px 0px 0px;
 }
 
 .smiley {
@@ -226,8 +232,9 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
   border-right: 1px solid white;
+  transition: 0.3s;
 }
 
 .S2a:hover {
@@ -241,7 +248,8 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
+  transition: 0.3s;
 }
 
 .S2b:hover {
@@ -263,12 +271,13 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
+  border-radius: 0px 0px 0px 20px;
+  transition: 0.3s;
 }
 
 #S3a:hover {
   background-color: #eee9de;
-  border-radius: 0px 0px 0px 20px;
 }
 
 #S3b {
@@ -279,12 +288,13 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
+  border-radius: 0px 0px 20px 0px;
+  transition: 0.3s;
 }
 
 #S3b:hover {
   background-color: #eee9de;
-  border-radius: 0px 0px 20px 0px;
 }
 
 
