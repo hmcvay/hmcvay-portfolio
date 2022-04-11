@@ -160,6 +160,7 @@ a:hover {
   border-radius: 20px;
   font-family: 'Roboto Mono', monospace;
   color: black;
+  background-color: #eee9de75;
 }
 
 .section1 {
@@ -172,7 +173,7 @@ a:hover {
 }
 
 #S1a {
-  height: 125px;
+  height: 123px;
   width: 125px;
   border-right: 1px solid white;
   display: flex;
@@ -180,6 +181,11 @@ a:hover {
   align-items: center;
   justify-content: center;
   padding: 10px;
+}
+
+#S1a:hover {
+  background-color: #eee9de;
+  border-radius: 20px 0px 0px 0px;
 }
 
 #S1b {
@@ -193,9 +199,14 @@ a:hover {
   padding: 10px;
 }
 
-.smiley-up {
-  height: 100px;
-  width: 100px;
+#S1b:hover {
+  background-color: #eee9de;
+  border-radius: 0px 20px 0px 0px;
+}
+
+.smiley {
+  height: 80px;
+  width: 80px;
 }
 
 
@@ -219,6 +230,10 @@ a:hover {
   border-right: 1px solid white;
 }
 
+.S2a:hover {
+  background-color: #eee9de;
+}
+
 .S2b {
   height: 200px;
   width: 450px;
@@ -227,6 +242,10 @@ a:hover {
   align-items: center;
   justify-content: center;
   padding: 10px;
+}
+
+.S2b:hover {
+  background-color: #eee9de;
 }
 
 .section3 {
@@ -247,6 +266,11 @@ a:hover {
   padding: 10px;
 }
 
+#S3a:hover {
+  background-color: #eee9de;
+  border-radius: 0px 0px 0px 20px;
+}
+
 #S3b {
   height: 125px;
   width: 125px;
@@ -256,14 +280,13 @@ a:hover {
   align-items: center;
   justify-content: center;
   padding: 10px;
-
 }
 
-.smiley-down {
-  display: block;
-  height: 100px;
-  width: 100px;
+#S3b:hover {
+  background-color: #eee9de;
+  border-radius: 0px 0px 20px 0px;
 }
+
 
 
 /* .section {
