@@ -24,7 +24,7 @@ Simply navigate to the Projects section and click on the images to access their 
 
 ## Known Bugs
 
-* No known bugs.
+* The browser might need to be adjusted larger to fit entire splash-page depending on user's screen-size.
 
 ## License
 
