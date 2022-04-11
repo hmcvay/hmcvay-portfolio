@@ -75,7 +75,7 @@ a:hover {
 }
 
 .stars {
-  width: 120px;
+  width: 100px;
   height: auto;
 }
 
@@ -334,18 +334,45 @@ a:hover {
   transform: translateX(-50%) translateY(-50%);
 }
 
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
 #project-container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 100px;
-  width: auto;
+  gap: 25px;
+  width: 775px;
+}
+
+.project-png {
+  width: 400px;
+  /* margin-left: 20%; */
+}
+
+.cirlces {
+  background-color: white;
+  border-radius: 50%;
 }
 
 .project-images {
   border-radius: 50%;
-  max-height: 300px;
+  height: 225px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.project-images:hover {
+  cursor: pointer;
+  opacity: 1;
+  height: 250px;
 }
 
 /* OTHER SECTION */
@@ -367,6 +394,11 @@ a:hover {
 
 #hm-resume {
   width: auto;
-  max-height: 700px;
+  height: 550px;
   border-radius: 5%;
+  transition: 0.3s;
+}
+
+#hm-resume:hover {
+  height: 1000px;
 }
